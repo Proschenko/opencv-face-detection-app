@@ -21,8 +21,8 @@ def detect_faces(image_path):
     for i, (x, y, w, h) in enumerate(faces):
         cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 2)
         print(f"Face №{i+1} coord:  ({x},{y}),({x+w},{y+h})")
-    # Для отладки (сохранить изображение с отмеченными лицами)
-    cv2.imwrite(f"{image_path}_output.jpg", image)
+    # Для отладки
+    #cv2.imwrite(f"{image_path}_output.jpg", image)
 
 
 if __name__ == "__main__":

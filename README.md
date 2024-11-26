@@ -14,12 +14,12 @@
 1. Убедитесь, что у вас установлен Python 3 и OpenCV.
 2. Склонируйте репозиторий:
     ```bash
-    git clone https://github.com/your-username/opencv-face-detection-app.git
+    git clone https://github.com/Proschenko/opencv-face-detection-app.git
     cd opencv-face-detection-app
     ```
 3. Установите зависимости:
     ```bash
-    pip install opencv-python-headless
+    pip install opencv-python
     ```
 4. Запустите приложение:
     ```bash
@@ -57,6 +57,3 @@
 
 После запуска приложение выведет количество обнаруженных лиц на изображении. Этот простой пример демонстрирует, как использовать OpenCV для базового анализа изображений.
 
-## Лицензия
-
-Этот проект распространяется под лицензией MIT.
